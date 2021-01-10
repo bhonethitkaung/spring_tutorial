@@ -1,0 +1,12 @@
+package org.studyeasy.cars;
+
+import org.studyeasy.interfaces.Car;
+
+public class Corolla implements Car {
+
+	@Override
+	public String specs() {
+		return "Hatchback from Suzuki";
+	}
+
+}
